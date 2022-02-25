@@ -1,0 +1,35 @@
+{
+  "name": "@iki-inc/fuzzy",
+  "version": "0.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/iki-inc/fuzzy.git",
+  "author": "IKI Inc.",
+  "keywords": [
+    "javascript",
+    "fuzzy"
+  ],
+  "engines": {
+    "node": ">= 14.17.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "husky install",
+    "prebuild": "eslint lib/*.ts",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "4.1.0",
+    "@typescript-eslint/eslint-plugin": "5.12.1",
+    "@typescript-eslint/parser": "5.12.1",
+    "eslint": "8.9.0",
+    "eslint-config-prettier": "8.4.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": "7.0.4",
+    "prettier": "2.5.1",
+    "rollup": "2.68.0",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-typescript2": "0.31.2",
+    "typescript": "4.5.5"
+  }
+}
