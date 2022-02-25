@@ -16,7 +16,18 @@
   "scripts": {
     "postinstall": "husky install",
     "prebuild": "eslint lib/*.ts",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "version": "release-it"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: Release v${version}",
+      "tag": false,
+      "push": false
+    },
+    "npm": {
+      "publish": false
+    }
   },
   "devDependencies": {
     "@rollup/plugin-json": "4.1.0",
@@ -27,6 +38,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "husky": "7.0.4",
     "prettier": "2.5.1",
+    "release-it": "14.12.5",
     "rollup": "2.68.0",
     "rollup-plugin-terser": "7.0.2",
     "rollup-plugin-typescript2": "0.31.2",
