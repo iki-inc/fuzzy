@@ -21,9 +21,10 @@
   },
   "release-it": {
     "git": {
+      "requireCleanWorkingDir": false,
       "commitMessage": "chore: Release v${version}",
       "tag": false,
-      "push": true
+      "push": false
     },
     "npm": {
       "publish": false
