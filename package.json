@@ -17,11 +17,10 @@
     "postinstall": "husky install",
     "prebuild": "eslint lib/*.ts",
     "build": "rollup -c",
-    "version": "release-it"
+    "versioning": "release-it"
   },
   "release-it": {
     "git": {
-      "requireCleanWorkingDir": false,
       "commitMessage": "chore: Release v${version}",
       "tag": false,
       "push": false
