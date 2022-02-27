@@ -1,9 +1,11 @@
 {
   "name": "@iki-inc/fuzzy",
+  "description": "Fuzzy Methods of JavaScript",
   "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": "https://github.com/iki-inc/fuzzy.git",
+  "homepage": "https://github.com/iki-inc/fuzzy",
   "author": "IKI Inc.",
   "keywords": [
     "javascript",
