@@ -1,6 +1,6 @@
 export default class Fuzzy {
   /**
-   * Line of Fuzzy Methods
+   * Line methods of Fuzzy Logic
    * @param value - target
    * @param min - stating point
    * @param max - last stop
@@ -26,7 +26,7 @@ export default class Fuzzy {
   }
 
   /**
-   * Triangle of Fuzzy Methods
+   * Triangle methods of Fuzzy Logic
    * @param value - target
    * @param min - starting point
    * @param vertex - vertex of a triangle
@@ -46,7 +46,7 @@ export default class Fuzzy {
   }
 
   /**
-   * Trapezoid of Fuzzy Methods
+   * Trapezoid methods of Fuzzy Logic
    * @param value - target
    * @param min - starting point
    * @param vertexStart - near stating point for vertex of trapezoid

@@ -1,6 +1,6 @@
 {
   "name": "@iki-inc/fuzzy",
-  "description": "Fuzzy Methods of JavaScript",
+  "description": "Fuzzy Logic of JavaScript",
   "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
@@ -9,7 +9,8 @@
   "author": "IKI Inc.",
   "keywords": [
     "javascript",
-    "fuzzy"
+    "fuzzy",
+    "frontend"
   ],
   "engines": {
     "node": ">= 14.17.0"
