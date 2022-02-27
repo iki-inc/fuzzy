@@ -15,3 +15,4 @@ yarn.lock
 package-lock.json
 jest.config.js
 tests
+coverage
