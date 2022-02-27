@@ -1,13 +1,16 @@
 {
   "name": "@iki-inc/fuzzy",
-  "version": "0.0.0",
+  "description": "Fuzzy Logic of JavaScript",
+  "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": "https://github.com/iki-inc/fuzzy.git",
+  "homepage": "https://github.com/iki-inc/fuzzy",
   "author": "IKI Inc.",
   "keywords": [
     "javascript",
-    "fuzzy"
+    "fuzzy",
+    "frontend"
   ],
   "engines": {
     "node": ">= 14.17.0"
@@ -16,20 +19,37 @@
   "scripts": {
     "postinstall": "husky install",
     "prebuild": "eslint lib/*.ts",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "jest",
+    "versioning": "release-it"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: Release v${version}",
+      "commit": false,
+      "tag": false,
+      "push": false
+    },
+    "npm": {
+      "publish": false
+    }
   },
   "devDependencies": {
     "@rollup/plugin-json": "4.1.0",
+    "@types/jest": "27.4.1",
     "@typescript-eslint/eslint-plugin": "5.12.1",
     "@typescript-eslint/parser": "5.12.1",
     "eslint": "8.9.0",
     "eslint-config-prettier": "8.4.0",
     "eslint-plugin-prettier": "4.0.0",
     "husky": "7.0.4",
+    "jest": "27.5.1",
     "prettier": "2.5.1",
+    "release-it": "14.12.5",
     "rollup": "2.68.0",
     "rollup-plugin-terser": "7.0.2",
     "rollup-plugin-typescript2": "0.31.2",
+    "ts-jest": "27.1.3",
     "typescript": "4.5.5"
   }
 }
