@@ -1,7 +1,7 @@
 {
   "name": "@iki-inc/fuzzy",
   "description": "Fuzzy Logic of JavaScript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": "https://github.com/iki-inc/fuzzy.git",
