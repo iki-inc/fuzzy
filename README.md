@@ -12,7 +12,7 @@ $ yarn add @iki-inc/fuzzy
 
 ## Methods
 
-### Fuzzy.grade(value, min, max[, reverse])
+### Fuzzy.grade(value, start, end[, reverse])
 
 return: **number**
 
@@ -32,7 +32,7 @@ console.log(reverse)
 //-> 0
 ```
 
-### Fuzzy.triangle(value, min, vertex, max)
+### Fuzzy.triangle(value, start, vertex, end)
 
 return: **number**
 
@@ -56,7 +56,7 @@ console.log(res4)
 //-> 0
 ```
 
-### Fuzzy.trapezoid(value, min, vertexStart, vertexEnd, max)
+### Fuzzy.trapezoid(value, start, vertexStart, vertexEnd, end)
 
 return: **number**
 
