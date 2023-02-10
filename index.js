@@ -2,7 +2,7 @@
 https://github.com/iki-inc/fuzzy
 Fuzzy Logic of JavaScript
 
-Version: 1.0.0
+Version: 1.0.1
 License: MIT
 
 © 2022 IKI Inc.
